@@ -73,4 +73,4 @@ apt-get install -y -o Dir=/workspace/.pi/tools/apt ... jq
 
 ## License
 
-MIT
+AGPL-3.0
