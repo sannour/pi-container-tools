@@ -1,0 +1,21 @@
+{
+  "name": "pi-container-tools",
+  "version": "1.0.0",
+  "description": "pi extension for downloading and installing CLI tools in containers without polluting the rootfs",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "container",
+    "tools",
+    "sandbox"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "pi": {
+    "extensions": ["./extensions/container-tools"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  }
+}
